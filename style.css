@@ -1,0 +1,20 @@
+*{
+    overflow: hidden;
+}
+body{
+    background-image: url(img/bg_bignose.png);
+    margin: 10vh;
+    margin-left: 10vh;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 3px #0000005b;
+    -moz-box-shadow: 2px 2px 3px 3px #0000005b;
+    display: flex;
+
+
+}
+#content{
+    background-color: rgba(255, 255, 255, 0.100);
+    width: 100%;
+    height: 100%;
+}

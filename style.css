@@ -1,14 +1,16 @@
 *{
+    background-size: 100%;
+    background-repeat: no-repeat;
     overflow: hidden;
 }
 body{
     background-image: url(img/bg_bignose.png);
-    margin: 10vh;
-    margin-left: 10vh;
-    height: 80vh;
+    margin-top: 15vh;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    height: 75vh;
     border-radius: 10px;
     box-shadow: 2px 2px 3px 3px #0000005b;
-    -moz-box-shadow: 2px 2px 3px 3px #0000005b;
     display: flex;
 
 

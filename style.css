@@ -4,14 +4,13 @@
 }
 
 *{
-    background-size: cover;
-    background-repeat: no-repeat;
     overflow: hidden;
 }
 
 body{
     background-image: url(img/bg_bignose.png);
-    padding: 4%;
+    background-size:100%;
+    padding: 3%;
     padding-left: 15%;
     padding-right: 15%;
 }

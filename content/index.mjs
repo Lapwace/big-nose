@@ -1,1 +1,0 @@
-export const content = '<div id="nickname_panel"><div id="nickname_box"><input type="text" placeholder="Player name" id="nickname_input"></div><p><button id="play_button"><img id="play_img" src="./img/play.png" onclick="buttonSwitch(\'play\')"></button></div>'

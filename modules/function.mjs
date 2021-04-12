@@ -11,3 +11,14 @@ function buttonSwitch(button){
         x.setAttribute("src", v);
     }
 }
+
+function indexContent(){
+    document.querySelector("#content").innerHTML = '<div id="nickname_panel"><div id="nickname_box"><input type="text" placeholder="Player name" id="nickname_input"></div><p><button id="play_button"><img id="play_img" src="./img/play.png" onclick="buttonSwitch(\'play\')"></button></div>'
+    document.querySelector("#play_button").addEventListener("click", (e) =>{
+        nickname_input = document.querySelector("#nickname_input")
+        if(nickname_input.value != ""){
+            userName = nickname_input.value
+            document.querySelector("#content").innerHTML = `Holla , ${userName}`
+        }
+    })
+}

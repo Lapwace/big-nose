@@ -1,3 +1,10 @@
 let socket = io()
-export let userName = ""
+let userName = ""
 
+socket.on("connect", () =>{
+    indexContent()
+})
+
+window.onload = () => {
+        
+}

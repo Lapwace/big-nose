@@ -11,9 +11,9 @@
 
 body{
     background-image: url(img/bg_bignose.png);
-    padding: 5%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 button{
@@ -79,7 +79,7 @@ input{
 }
 
 #nickname_panel{
-    margin-top: 30%;
+    margin-top: 25%;
 }
 
 #main_page{

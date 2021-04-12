@@ -43,7 +43,7 @@ input{
     display: flex;
 }
 
-#main_panel{
+#nickname_panel{
     text-align: center;
     padding: 25%;
 }
@@ -55,22 +55,17 @@ margin-top: 5px
 }
 
 #play_button{
-    background-image: url(img/play.png);
-    width: 150px;
-    height: 50px;
     margin-left: 25%;
     margin-right: 25%;
 }
 
-#play_button:active{
-    background-image: url(img/play_active.png);
-}
 
 #play_button:focus, #nickname_input:focus{
     outline: none;
 }
 
 #nickname_box{
+    min-width: 200px;
     border-radius: 5px;
     margin-left: 25%;
     margin-right: 25%;

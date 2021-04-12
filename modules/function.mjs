@@ -18,7 +18,9 @@ function indexContent(){
         nickname_input = document.querySelector("#nickname_input")
         if(nickname_input.value != ""){
             userName = nickname_input.value
-            document.querySelector("#content").innerHTML = `Holla , ${userName}`
+            if(userName != "Kallae"){
+                document.querySelector("#content").innerHTML = `Holla , ${userName}`
+            }else{document.querySelector("#content").innerHTML = `Haha (nelson)`}
         }
     })
 }

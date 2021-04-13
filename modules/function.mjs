@@ -64,6 +64,7 @@ function mainContent(){
             changeRoom = join_input.value
             socket.emit("enter_room", changeRoom, currentRoom, userName, userID)
             document.querySelector("#join_input").value = ""
+            document.querySelector("#party_list").value = ""
         }
     })
 }

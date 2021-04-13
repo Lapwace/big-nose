@@ -62,7 +62,7 @@ function mainContent(){
         let join_text = document.querySelector("#join_input")
         if(join_text.value != "" && join_text.value != currentRoom){
             changeRoom = join_input.value
-            document.querySelector("#party_list").value = ""
+            document.querySelector("#party_list").innerHTML = ""
             socket.emit("enter_room", changeRoom, currentRoom, userName, userID)
             document.querySelector("#join_input").value = ""
         }

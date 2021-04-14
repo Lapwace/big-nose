@@ -17,10 +17,10 @@ function refresh_number_member(add_name, room_charged){
     if(room_charged == userName+":"+userID){
         member_list = document.querySelector("#party_list")
         if(member_list.innerHTML == undefined){
-            let party_text = `<p>${add_name}`
+            let party_text = `<div id="member_group">${add_name}</div>`
             document.querySelector("#party_list").innerHTML = party_text
         }else{
-            let party_text = document.querySelector("#party_list").innerHTML+`<p>${add_name}`
+            let party_text = document.querySelector("#party_list").innerHTML+`<div id="member_group">${add_name}</div>`
             document.querySelector("#party_list").innerHTML = party_text
             socket.emit("refresh_room", currentRoom, party_text)
         }

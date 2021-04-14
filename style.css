@@ -137,6 +137,13 @@ input{
     border-bottom-right-radius: 5px;
     height: 85%;
     overflow-y: scroll;
+}
 
-    
+#member_group{
+    border-bottom: 1px dashed black;
+    width: 100%;
+    text-align: left;
+    font-family: "Ink", Fallback, sans-serif;
+    font-size: 30px;
+    margin: 10px;
 }
